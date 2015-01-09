@@ -21,7 +21,7 @@
 #
 # Coursera:     Data Sciences => Exploratory Data Analysis - Project 1
 # Author:       Marc Genty
-# Last Updated: 07Jan15
+# Last Updated: 09Jan15
 #
 
 # ==========================================================================
@@ -89,7 +89,7 @@ names(powerDF) <- c("Date", "Time", "DateAndTime",
 png(file = "plot4.png", width = 480, height = 480)
 
 # Set Up For The Ensemble Pain:
-par(mfrow = c(2, 2), mar = c(4, 4, 1, 1))
+par(mfrow = c(2, 2), mar = c(4, 4, 4, 2))
 
 # Plot 1:
 plot(powerDF$DateAndTime, powerDF$GlobalActivePower, 
